@@ -7,13 +7,9 @@
     padding: 92px 48px 24px 48px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .footer {
-        max-width: 288px;
-        padding-top: 64px;
-        padding-right: 16px;
-        padding-left: 16px;
-        flex-direction: column;
+        max-width: 928px;
     }
 }
 
@@ -26,8 +22,12 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
     .footer {
-        max-width: 928px;
+        max-width: 288px;
+        padding-top: 64px;
+        padding-right: 16px;
+        padding-left: 16px;
+        flex-direction: column;
     }
 }
