@@ -1,5 +1,5 @@
 .header__lang-link {
-    font-weight: normal;    
+    font-weight: normal;
     font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1280 - 320)));
     line-height: 1.17;
     margin-bottom: 6px;
