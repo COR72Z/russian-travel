@@ -7,6 +7,7 @@
     url(./Inter-Regular.ttf) format("ttf"),
     url(./Inter-Regular.svg) format("svg");
 }
+
 /* импортирование черного шрифта */
 @font-face {
   font-family: "Inter";
@@ -16,6 +17,7 @@
     url(./Inter-Black.ttf) format("ttf"),
     url(./Inter-Black.svg) format("svg");
 }
+
 /* импортирование жирного шрифта */
 @font-face {
   font-family: "Inter";

@@ -1,18 +1,19 @@
 .cover__title {
-	margin: 0 auto 0 auto;
-	max-width: 560px;
-	text-align: center;
-	font-weight: 900;
-	font-size: 72px;
-	line-height: 1.06;
-	text-rendering: optimizeLegibility;
+    margin: 0 auto 0 auto;
+    max-width: 560px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    z-index: 2;
+    text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 767px) {
     .cover__title {
         font-size: 32px;
         line-height: 1.09;
-        max-width: 288px;        
+        max-width: 288px;
     }
 }
 
@@ -20,6 +21,6 @@
     .cover__title {
         font-size: 32px;
         line-height: 1.09;
-        max-width: 288px;        
+        max-width: 288px;
     }
 }

@@ -2,7 +2,7 @@
 	padding: 0 48px 92px 48px;
 	grid-template-columns: 1fr;
 	display: grid;
-	row-gap: 80px;
+	row-gap: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -10,7 +10,7 @@
 		padding-right: 24px;
 		padding-left: 24px;
 		padding-bottom: 88px;
-		row-gap: 73px;
+		row-gap: 0;
 	}
 }
 
@@ -19,6 +19,6 @@
 		padding-right: 0;
 		padding-left: 0;
 		padding-bottom: 66px;
-		row-gap: 50px;
+		row-gap: 0;
 	}
 }
